@@ -1,0 +1,14 @@
+# Ne pas uploader les données volumineuses
+*.parquet
+*.csv
+*.json
+
+# Ne pas uploader les fichiers de configuration locale
+.DS_Store
+*.db
+.venv/
+
+# Dossiers temporaires de Spark
+spark-warehouse/
+metastore_db/
+checkpoint/
